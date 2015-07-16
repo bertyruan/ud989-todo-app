@@ -251,6 +251,7 @@ label[for='toggle-all'] {
 }
 
 #todo-list li .priority-btn:after {
+	color: #d66;
 	content: '!';
 }
 

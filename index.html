@@ -26,6 +26,8 @@
 		<script type="text/template" id="item-template">
 			<div class="view">
 				<input class="toggle" type="checkbox" <%= completed ? 'checked' : '' %>>
+				<button class="priority-btn"></button>
+
 				<label><%- title %><span class="bqr-done"><%- completed ? '--done' : ''%></span></label>
 				
 				<button class="edit-btn"></button>
